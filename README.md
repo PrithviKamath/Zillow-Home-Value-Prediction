@@ -1,6 +1,4 @@
 
-
-```python
 <img src="https://github.com/PrithviKamath/Zillow-Home-Value-Prediction/blob/master/Extras/Zillow%20Home%20Value%20Prediction%20logo.PNG"></img><br />
 <b>Zillow Home Value Prediction Dataset</b> (https://www.kaggle.com/c/zillow-prize-1/overview)<br />
 
@@ -61,4 +59,8 @@ I am using the 'sample_submission' dataset to create a test dataset. 'test_x' da
 <b>References</b> <br />
 https://www.kaggle.com/c/zillow-prize-1 <br />
 https://www.kaggle.com/arjanso/simple-starter-randomforest-regressor
+
+
+```python
+
 ```
