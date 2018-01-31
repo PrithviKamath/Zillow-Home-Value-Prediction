@@ -42,7 +42,7 @@ We also observe that the observations have latitude and longitudes. The data des
 <img src='https://github.com/PrithviKamath/Zillow-Home-Value-Prediction/blob/master/Output/ObservationsMap.png'></img><br />
 Finally, we save this dataset in the Data folder to further use it as an input to implement machine learning algorithms.
 
-<b>Data Pre-processing</b>
+<b>Data Pre-processing</b> <br />
 We start with importing the above created 'merged_data', properties_2016 dataset and the 'sample_submission' dataset.
 Next, we move to clear a bad record in the 'merged_data' by dropping the first column. Then we take variables with numerical values and ignore the variables with strings as string values cannot be used in this machine learning model. Finally, we replace the empty values with '-1'.
 
