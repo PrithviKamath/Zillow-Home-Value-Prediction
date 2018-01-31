@@ -53,7 +53,7 @@ I have done that by including all variables except 'parcelid' and 'logerror' fro
 • Next step is to <b>Create a testing dataset</b>
 I am using the 'sample_submission' dataset to create a test dataset. 'test_x' dataset contains variables similar to 'train_x'.
 
-• We then implement Random Forest Regressor for 5,10 and 15 variables and check the prediction of log error. Top 1000 rows of the output are saved in .csv file named 'LogErrorPrediction' with a time stamp. Only top 1000 rows are considered due to space constraints. Top 15 'parcelid' with their predicted 'logerror' is as follows:
+• We then implement Random Forest Regressor for 5,10 and 15 variables and check the prediction of log error. Top 1000 rows of the output are saved in .csv file named 'LogErrorPrediction' with a time stamp. Only top 1000 rows are considered due to space constraints. Top 15 'parcelid' with their predicted 'logerror' is as follows: <br />
 <img src='https://github.com/PrithviKamath/Zillow-Home-Value-Prediction/blob/master/Extras/Output.PNG'></img>
 
 <b>References</b> <br />
