@@ -5,6 +5,16 @@
 <b>Summary:</b> <br />
 Ever since Zillow released its Home Value Prediction 11 years ago, it was a great hit amongst the first-time home buyers. Home being the largest and most expensive purchase a person makes in his lifetime, it ensured homeowners had access to reliable information, free of cost, at the click of a button.<br />
 
+<b>Programmatically download data:</b> <br />
+To programmatically download the data from www.kaggle.com please follow the below steps:<br />
+•	Step 1: Sign up for a Kaggle account at https://www.kaggle.com <br />
+•	Step 2: Go to the 'Account' tab of your user profile (https://www.kaggle.com/<username>/account) and select 'Create API Token'. This will trigger the download of kaggle.json, a file containing your API credentials <br />
+•	Step 3: Place this file in the location ~/.kaggle/kaggle.json (on Windows in the location C:\Users\<Windows-username>\.kaggle\kaggle.json) <br />
+
+Download data using os.popen command and use zillow-prize-1 as competition name<br />
+<img src='https://github.com/PrithviKamath/Zillow-Home-Value-Prediction/blob/master/Extras/DataDownloadDescription.PNG'></img><br />
+
+
 <b>Data Description</b><br />
 Below is the description about the files used in this analysis:<br />
 • <b>properties_2016.csv</b> - all the properties with their home features for 2016<br />
@@ -57,8 +67,9 @@ I am using the 'sample_submission' dataset to create a test dataset. 'test_x' da
 <img src='https://github.com/PrithviKamath/Zillow-Home-Value-Prediction/blob/master/Extras/Output.PNG'></img>
 
 <b>References</b> <br />
-https://www.kaggle.com/c/zillow-prize-1 <br />
-https://www.kaggle.com/arjanso/simple-starter-randomforest-regressor
+•	https://www.kaggle.com/c/zillow-prize-1 <br />
+•	https://www.kaggle.com/arjanso/simple-starter-randomforest-regressor <br />
+•	https://github.com/Kaggle/kaggle-api <br />
 
 
 ```python
